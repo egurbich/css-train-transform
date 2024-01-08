@@ -1,95 +1,168 @@
 .task1 {
+  transform: rotate(0deg);
+
+  transition: transform 1s ease-in-out;
 }
 
 .task1:hover {
+  transform: rotate(270deg);
 }
 
 .task2 {
+  transform: rotateX(0deg);
+
+  transition: transform 1s linear;
 }
 
 .task2:hover {
+  transform: rotateX(135deg);
 }
 
 .task3 {
+  transform: rotateY(0deg);
+
+  transition: transform 1s ease-in-out;
 }
 
 .task3:hover {
+  transform: rotateY(45deg);
 }
 
 .task4 {
+  transform: scale(1);
+
+  transition: transform 1s linear;
 }
 
 .task4:hover {
+  transform: scale(1.3);
 }
 
 .task5 {
+  transform: scale(1, 1);
+
+  transition: transform 1s ease-out;
 }
 
 .task5:hover {
+  transform: scale(1.5, 1);
 }
 
 .task6 {
+  transform: scale(1, 1);
+
+  transition: transform 1s ease-in;
 }
 
 .task6:hover {
+  transform: scale(1, 0.5);
 }
 
 .task7 {
+  transform: skew(0deg);
+
+  transition: transform 1s ease-out;
 }
 
 .task7:hover {
+  transform: skew(30deg, 0deg);
 }
 
 .task8 {
+  transform: skew(0deg);
+
+  transition: transform 1s ease-in-out;
 }
 
 .task8:hover {
+  transform: skew(25deg, 0deg);
 }
 
 .task9 {
+  transform: skew(0deg);
+
+  transition: transform 1s ease-in;
 }
 
 .task9:hover {
+  transform: skew(0deg, 20deg);
 }
 
 .task10 {
+  transform: translate(0px, 0px);
+
+  transition: transform 1s ease-in;
 }
 
 .task10:hover {
+  transform: translate(60px, 40px);
 }
 
 .task11 {
+  transform: translate(0px, 0px);
+
+  transition: transform 1s ease-out;
 }
 
 .task11:hover {
+  transform: translate(50px, 0px);
 }
 
 .task12 {
+  transform: translate(0px, 0px);
+
+  transition: transform 1s linear;
 }
 
 .task12:hover {
+  transform: translate(0px, 30px);
 }
 
 .task13 {
+  transform: translate(0px, 0px);
+  transform-origin: center center;
+
+  transition: transform 1s cubic-bezier(0.25, 1, 0.25, 1);
 }
 
 .task13:hover {
+  transform: translate(20px, 20px) rotateX(90deg) rotateY(90deg) rotateZ(90deg);
+  transition: transform 1s ease-out;
 }
 
 .task14 {
+  transform: translate(0px, 0px);
+  transform-origin: center center;
+
+  transition: transform 1s ease-in;
 }
 
 .task14:hover {
+  transform: translate(0px, 0px) rotate3d(2, 3, 3, 45deg);
 }
 
 .task15 {
+  transform: scale(1, 1);
+  transform-origin: center center;
+
+  transition: transform 1s ease-out;
 }
 
 .task15:hover {
+  transform: matrix(0.4, 0, 0, 0.4, 1, 1);
 }
 
 .task16 {
+  transform: none;
+
+  transition: transform 1s linear;
 }
 
 .task16:hover {
+  transform: matrix(
+    0.5, 0, -0.866025, 0,
+    0.595877, 1.2, -1.03209, 0,
+    0.866025, 0, 0.5, 0,
+    25.9808, 0, 15, 1
+  );
 }
